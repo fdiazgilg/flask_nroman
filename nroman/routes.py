@@ -19,4 +19,3 @@ def to_roman(valor):
     resp['correct'] = True
     resp['result'] = {'arabigo': valor, 'romano': str(nr)}
     return jsonify(resp)
-    return str(nr)
